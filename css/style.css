@@ -268,6 +268,7 @@ li img {
 	width: 265px;
 	height: 265px;
 	margin-left: 40px;
+	margin-right: 125px;
 	border-radius: 10px;
 }
 
@@ -279,7 +280,6 @@ li img {
 
 .border-none {
 	border: none;
-
 }
 
 .name {
@@ -380,8 +380,8 @@ li img {
 
 .speckyboy {
 	height: 60px;
-	width: 175px;
-	padding-right: 80px;
+	width: 170px;
+	margin-right: 75px;
 	padding-left: 65px;
 
 }
@@ -389,19 +389,19 @@ li img {
 .dwb {
 	width: 235px;
 	height: 80px;
-	padding-right: 90px;
+	margin-right: 90px;
 }
 
 .webdesignledger {
 	width: 160px;
 	height: 80px;
-	padding-right: 50px;
+	margin-right: 90px;
 }
 
 .instantshift {
 	width: 220px;
-	height: 60px;
-	padding-right: o;
+	height: 70px;
+	margin-right: 0;
 }
 
 .jury {
