@@ -268,7 +268,6 @@ li img {
 	width: 265px;
 	height: 265px;
 	margin-left: 40px;
-	
 	border-radius: 10px;
 }
 
@@ -408,4 +407,65 @@ li img {
 .jury {
 	background-color: #ffe9eb;
 	height: 780px;
+}
+
+.jury h2 {
+	font-size: 62px;
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 50px;
+}
+
+.jury li {
+	display: inline-block;
+	width: 28%;
+	margin-right: 30px;
+}
+
+.jury img {
+	border-radius: 200px;
+	width: 360px;
+	height: 360px;
+	margin-left: 0;
+	
+}
+
+.contact-us {
+	height: 890px;
+	background-color: #fff;
+
+}
+
+.contact-us h2 {
+	text-align: center;
+	font-size: 64px;
+	padding-top: 85px;
+	padding-bottom: 75px;
+}
+ 
+.contact-us p {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	width: 705px;
+	font-size: 22px;
+	padding-bottom: 80px;
+}
+
+.newsletter {
+	height: 460px;
+	background-color: #eeeeee;
+}
+
+.newsletter h3 {
+	text-align: center;
+	font-size: 36px;
+	padding-top: 55px;
+	padding-bottom: 35px;
+}
+
+.newsletter p {
+	text-align: center;
+	font-size: 16px;
+	padding-bottom: 20px;
 }
