@@ -461,11 +461,69 @@ li img {
 	text-align: center;
 	font-size: 36px;
 	padding-top: 55px;
-	padding-bottom: 35px;
+	padding-bottom: 40px;
 }
 
-.newsletter p {
-	text-align: center;
+
+
+label {
+	display: block;
 	font-size: 16px;
 	padding-bottom: 20px;
+	text-align: center;
+}
+
+input#email {
+	width: 400px;
+	height: 61px;
+	border: none;
+	border-radius: 10px;
+	margin-left: 305px;
+	margin-bottom: 75px;
+}
+
+input::placeholder {
+	font-size: 18px;
+	padding-left: 20px;
+}
+
+button {
+	background-color: #c60ebe;
+	border-radius: 10px;
+	width: 138px;
+	height: 61px;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+}
+
+.messenger {
+	position: relative;
+	height: 70px;
+	background-color: inherit;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+.messenger ul {
+margin-block-start: 0;
+margin-block-end: 0;
+font-size: 0;
+padding: 0;
+text-align: center;
+}
+
+.messenger img {
+	height: 65px;
+	width: 65px;
+	border-radius: 100px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.messenger li {
+	display: inline-block;
+	padding-right: 5px;
+
 }
