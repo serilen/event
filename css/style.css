@@ -452,6 +452,15 @@ li img {
 	padding-bottom: 80px;
 }
 
+.send-contakt li {
+	display: inline-block;
+	width: 47%;
+}
+
+.send-contakt span {
+	display: block;
+}
+
 .newsletter {
 	height: 460px;
 	background-color: #eeeeee;
@@ -503,7 +512,6 @@ button {
 	background-color: inherit;
 	margin-right: auto;
 	margin-left: auto;
-	
 }
 
 .messenger ul {
