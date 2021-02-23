@@ -430,35 +430,90 @@ li img {
 	
 }
 
-.contact-us {
+.contakt-us {
 	height: 890px;
 	background-color: #fff;
 
 }
 
-.contact-us h2 {
+.contakt-us h2 {
 	text-align: center;
 	font-size: 64px;
 	padding-top: 85px;
-	padding-bottom: 75px;
+	padding-bottom: 70px;
 }
  
-.contact-us p {
+.contakt-us p {
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
 	width: 705px;
 	font-size: 22px;
-	padding-bottom: 80px;
+	padding-bottom: 60px;
+}
+
+.send-contakt li:nth-child(2n+1) {
+	padding-left: 255px;
+	margin-right: 30px;
+	padding-bottom: 35px;
 }
 
 .send-contakt li {
 	display: inline-block;
-	width: 47%;
+	padding-right: 0;
+	width: 300px;
 }
 
-.send-contakt span {
-	display: block;
+.send-contakt input {
+	width: 300px;
+	border: none;
+	border-bottom: 5px solid #555555;;
+	height: 40px;
+	outline: none;
+}
+
+.send-contakt input:focus {
+	border-bottom: 1px solid #555555;
+	font-weight: 400;
+	
+}
+
+ul.send-contakt {
+	margin-bottom: 120px;
+	padding-top: 0;
+	margin-top: 0;
+
+}
+
+.send-contakt input::placeholder {
+	font-size: 13px;
+	font-weight: 400;
+
+}
+
+#send {
+	border: none;
+	border-bottom: 5px solid #555555;
+	width: 640px;
+	height: 40px;
+	outline: none;
+	font-size: 13px;
+}
+
+#send:focus {
+	border-bottom: 1px solid #555555;
+	font-size: 13px;
+
+}
+
+.contakt-us button {
+	width: 145px;
+	height: 50px;
+	font-size: 12px;
+	font-weight: 700;
+	background-color: #555555;
+	color: #fff;
+	margin-left: 740px;
 }
 
 .newsletter {
@@ -472,7 +527,6 @@ li img {
 	padding-top: 55px;
 	padding-bottom: 40px;
 }
-
 
 
 label {
@@ -491,12 +545,12 @@ input#email {
 	margin-bottom: 75px;
 }
 
-input::placeholder {
+.newsletter input::placeholder {
 	font-size: 18px;
 	padding-left: 20px;
 }
 
-button {
+.newsletter button {
 	background-color: #c60ebe;
 	border-radius: 10px;
 	width: 138px;
