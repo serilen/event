@@ -1,23 +1,36 @@
-body{
+html, body{
 	font-family: 'Poppins', sans-serif;
 	width: 100%;
 	height: 100%;
 	background-color: #282828;
 	color: #444444;
-	font-size: 14px;
-	width: 1920px;	
+	font-size: 0;
+	width: 100%;
+	height: 100%;
+	line-height: 1;
+    margin: auto;
+    padding: 0;
+
 }
 
-p, h2, h3, h4 {
+h1,h2,h3,p,ul,li {
 	margin-block-start: 0;
-   margin-block-end: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+header {
+	color: #fff;
 }
 
 .main-banner {
-background-image: url(..//image/ezra-comeau-jeffrey-77199-unsplash.jpg);
-background-repeat: no-repeat;
-height: 800px;
-
+	background-image: url(..//image/ezra-comeau-jeffrey-77199-unsplash.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	max-width: 1920px;
+	height: 820px;
 }
 
 .container{
@@ -28,27 +41,30 @@ height: 800px;
 	padding-right: 15px;	
 }
 
-header {
-	color: #fff;
-
-}
-
-ul {
-padding-top: 32px;
-padding-inline-start: 0;
-padding-left: 15px;
-font-weight: 700;
-list-style: none;
-margin-bottom: 200px;
-
-}
-
-.name-proekt {
+.logo {
+	display: inline-block;
+	width: 120px;
+	height: 69px;
 	font-size: 33px;
-	padding-right: 652px;
+	padding-right: 615px;
+	padding-top: 20px;
+	vertical-align: middle;
 }
 
-ul li {
+nav {
+	display: inline-block;
+}
+
+.main-menu {
+	padding-top: 32px;
+	font-weight: 700;
+	list-style: none;
+	margin-bottom: 200px;
+	vertical-align: middle;
+}
+
+
+.main-menu li {
 	display: inline-block;
 	font-size: 16px;
 	padding-right: 33px;
@@ -56,12 +72,34 @@ ul li {
 	vertical-align: top;
 }
 
-ul li:last-child {
+.main-menu li:last-child {
 	padding-right: 0;
 }
 
-a {
+.main-menu a {
+	color: #ffffff;
+	text-decoration: none;
+	
+}
+
+.main-menu a:hover {
 	color: #e71cb4;
+	padding-bottom: 6px;
+    border-bottom: 2px solid;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.main-menu a:focus {
+	color: #2f2f;
+	padding-bottom: 6px;
+    border-bottom: 2px solid;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.main-menu a:active {
+	color: #000;
 	padding-bottom: 6px;
     border-bottom: 2px solid;
     text-transform: capitalize;
@@ -83,6 +121,7 @@ header p {
 
 header button {
 	background-color: inherit;
+	color: #ffffff;
 	margin-left: 450px;
 	width: 265px;
 	height: 47px;
@@ -95,6 +134,7 @@ header button {
 
 .section-design-battles {
 	background-color: #fff;
+	max-width: 1920px;
 	height: 1715px;
 
 }
@@ -119,32 +159,31 @@ p.first-paragraph-design-battles {
 	padding-bottom: 96px;
 }
 
-ol {
+.questions {
 	display: inline-block;
 	width: 49.8%;
 	font-size: 0;
 	padding-left: 0;
-	margin-block-start: 0;
-   margin-block-end: 0;
-   padding-inline-start: 0;
+	
+   
 	list-style-type: none;
 	
 }
 
-ol li {
+.questions li {
 	display: inline-block;
 	font-size: 0; 
 	padding-bottom: 85px;
 }
 
-li span {
+.questions span {
 	display: inline-block;
 	vertical-align: top;
 	width: 360px;
 	font-size: 24px;
 }
 
-ol li:before {
+.questions li:before {
 	display: inline-block;
 	vertical-align: bottom;
 	font-size: 44px;
@@ -207,6 +246,7 @@ p.small-text {
 }
 
 .section-design-battles button {
+	max-width: 1920px;
 	background-color: #c60ebe;
 	margin-left: 15px;
 	width: 458px;
@@ -220,6 +260,7 @@ p.small-text {
 }
 
 .section-they-already-said-battles {
+max-width: 1920px;
 background-image: url(..//image/Bg.jpg);
 background-repeat: no-repeat;
 height: 1620px;
@@ -273,6 +314,7 @@ li img {
 }
 
 .john-stoun {
+	max-width: 1920px;
 	padding-top: 0;
 	margin-bottom: 100px;
 	padding-left: 50px;
@@ -351,6 +393,7 @@ li img {
 }
 
 .sponsorship {
+	max-width: 1920px;
 	height: 430px;
 	background-color: #fff;
 }
@@ -405,6 +448,7 @@ li img {
 }
 
 .jury {
+	max-width: 1920px;
 	background-color: #ffe9eb;
 	height: 780px;
 }
@@ -431,6 +475,7 @@ li img {
 }
 
 .contakt-us {
+	max-width: 1920px;
 	height: 890px;
 	background-color: #fff;
 
@@ -517,6 +562,7 @@ ul.send-contakt {
 }
 
 .newsletter {
+	max-width: 1920px;
 	height: 460px;
 	background-color: #eeeeee;
 }
