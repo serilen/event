@@ -1,42 +1,31 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
 html, body{
 	font-family: 'Poppins', sans-serif;
 	width: 100%;
 	height: 100%;
-	background-color: #282828;
+	background-color: #ffffff;
 	color: #444444;
-	font-size: 0;
-	width: 100%;
-	height: 100%;
 	line-height: 1;
-	margin: auto;
-	padding: 0;
-
 }
 
-h1,h2,h3,p,ul,li,ol {
-	margin-block-start: 0;
-	margin-block-end: 0;
-	margin-inline-start: 0;
-	margin-inline-end: 0;
-	padding-inline-start: 0;
-	padding-inline-end: 0;
+ul,ol {
 	list-style: none;
 }
 
-header {
-	color: #fff;
-}
-
 .main-banner {
+	color:  #fff;
 	background-image: url(..//image/ezra-comeau-jeffrey-77199-unsplash.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
-	max-width: 1920px;
-	height: 820px;
 }
 
-.container{
+.container {
 	width: 1170px;
 	margin-left: auto;
 	margin-right: auto;
@@ -44,45 +33,64 @@ header {
 	padding-right: 15px;	
 }
 
-.logo {
-	width: 98px;
-	height: 34px;
-	padding-right: 615px;
-	padding-top: 20px;
-	vertical-align: top;
+.main-nav {
+   font-size: 0;
+   text-align: justify;
+   padding-top: 28px;
+	margin-bottom: 223px;
+   
 }
 
-nav {
-	display: inline-block;
+.main-nav:after {
+   content: '';
+   width: 100%;
+   display: inline-block;
 }
 
 .main-menu {
-	padding-top: 32px;
-	font-weight: 700;
-	margin-bottom: 250px;
-	vertical-align: top;
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 700;
 }
 
+.logo {
+	display: inline-block;
+	width: 98px;
+	height: auto;
+	vertical-align: middle;
+ }
 
-.main-menu li {
+.main-nav-link:hover {
+	opacity: 0.4;
+}
+
+.main-nav-link:active {
+	opacity: 0.1;
+}
+
+.main-nav-link:focus {
+	border-bottom: 20px solid #ff0000;
+}
+
+.main-menu-item {
 	display: inline-block;
 	font-size: 16px;
-	padding-right: 33px;
+	padding: 0 18px 0 18px;
 	text-align: left;
 	vertical-align: top;
 }
 
-.main-menu li:last-child {
+.main-menu-item:last-child {
 	padding-right: 0;
 }
 
-.main-menu a {
+.main-menu-item-link {
 	color: #ffffff;
 	text-decoration: none;
 	
 }
 
-.main-menu a:hover {
+.main-menu-item-link:hover {
 	color: #e71cb4;
 	padding-bottom: 6px;
 	border-bottom: 2px solid;
@@ -90,7 +98,7 @@ nav {
 	text-decoration: none;
 }
 
-.main-menu a:focus {
+.main-menu-item-link:focus {
 	color: #2f2f;
 	padding-bottom: 6px;
 	border-bottom: 2px solid;
@@ -98,7 +106,7 @@ nav {
 	text-decoration: none;
 }
 
-.main-menu a:active {
+.main-menu-item-link:active {
 	color: #000;
 	padding-bottom: 6px;
 	border-bottom: 2px solid;
@@ -106,29 +114,36 @@ nav {
 	text-decoration: none;
 }
 
-header h2  {
+.header-title  {
 	font-size: 60px;
 	font-weight: 700;
 	text-align: center;
-	padding-bottom: 30px;
+	margin-bottom: 35px;
 }
 
-header p {
+.header-description {
 	font-size: 30px;
 	text-align: center;
-	margin-bottom: 80px;
+	margin-bottom: 77px;
 }
 
-header button {
+.wrapper-button {
+	width: 100%;
+	text-align: center;
+}
+
+.btn {
 	background-color: inherit;
 	color: #ffffff;
-	margin-left: 450px;
-	width: 265px;
-	height: 47px;
-	font-size: 16px;
+}
+
+.btn-header {	
 	border: 2px solid #fff;
 	border-radius: 8px;
 	text-transform: capitalize;
+	padding: 16px 35px 16px 35px;
+	margin-bottom: 260px;
+	
 	
 }
 
@@ -147,7 +162,7 @@ header button {
 	
 }
 
-p.top-description {
+.top-description {
 	font-size: 32px;
 	line-height: 49px;
 	padding-bottom: 125px;
@@ -164,9 +179,7 @@ p.top-description {
 	width: 50%;
 	font-size: 0;
 	padding-left: 0;
-	
-
-	list-style-type: none;
+	list-style: none;
 	
 }
 
@@ -246,9 +259,7 @@ p.small-text {
 }
 
 .section-design-battles button {
-	max-width: 1920px;
 	background-color: #c60ebe;
-	margin-left: 15px;
 	width: 458px;
 	height: 70px;
 	font-size: 22px;
@@ -260,9 +271,9 @@ p.small-text {
 }
 
 .section-they-already-said-battles {
-	max-width: 1920px;
 	background-image: url(..//image/Bg.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
 	height: 1620px;
 	color: #ffffff;
 }

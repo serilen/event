@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<p><!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -14,47 +14,62 @@
 	<link rel="stylesheet" href="css/style.css" />
 
 </head>
-<body>	
-	<header>
-		<div class="main-banner">
-			<div class="container">
-				<img class="logo" src="image/logo.jpg" alt="logo">
-			<nav>
+
+<body>
+	<header class="main-banner">
+		<div class="container">
+			<nav class="main-nav">
+				<a class="main-nav-link" href="#">
+					<img class="logo" src="image/logo.jpg" alt="logo">
+				</a>
 				<ul class="main-menu">
-					<li><a href="#">About</a></li>
-					<li><a href="#">Jury</a></li>
-					<li><a href="#">Competitors</a></li>
-					<li><a href="#">Contact Us</a></li>
+					<li class="main-menu-item">
+						<a class="main-menu-item-link" href="#">About</a>
+					</li>
+					<li class="main-menu-item">
+						<a class="main-menu-item-link" href="#">Jury</a>
+					</li>
+					<li class="main-menu-item">
+						<a class="main-menu-item-link" href="#">Competitors</a>
+					</li>
+					<li class="main-menu-item">
+						<a class="main-menu-item-link" href="#">Contact Us</a>
+					</li>
 				</ul>
 			</nav>
-				<h2>Are you ready for the Battle?</h2>
-				<p>The clash between graphic designers</p>
-				<button>Download our case study</button>
+			<h2 class="header-title">Are you ready for the Battle?</h2>
+			<p class="header-description">The clash between graphic designers</p>
+			<div class="wrapper-button">
+				<button class="btn btn-header">
+				Download our case study
+				</button>
 			</div>
 		</div>
 	</header>
-	
+
 	<main>
 		<section>
 			<div class="section-design-battles">
 				<div class="container">
-					<h2>Design Battles</h2>
-					<p class="top-description">Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.</p>
-					<h3>What is the course of the Battles?</h3>
+					<h2 class="design-battles-title">Design Battles</h2>
+					<p class="design-battles-lead">
+						Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
+					</p>
+					<h3 class="questions-list-title">What is the course of the Battles?</h3>
 					<ol class="questions">
-						<li class="marker-color1">
+						<li class="questions-item questions-item-green marker-color1">
 							<span>Cras ultricies ligula sed mag.</span>
 						</li>
 						<li class="marker-color2">
 							<span>Pellentesque in ipsum id orci porta clapibus.</span>
 						</li>
-						<li class="marker-color3">
+						<li class="marker-color3 questions-item-blue">
 							<span>Curabitur arcu erat, accumsan id imperdiet et,</span>
 						</li>
 					</ol>
 
 					<ol class="questions">
-						<li class="marker-color4">
+						<li class="questions-item marker-color4">
 							<span>Cras ultricies ligula sed magna dictum portaurabitur</span>
 						</li>
 						<li class="marker-color5">
@@ -65,19 +80,15 @@
 						</li>
 					</ol>
 
-					<p class="bottom-description">
+					<p class="design-battles-description">
 						Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
 					</p>
 
-					<h4>
-						Submissions starts on 10/12/2017 and end on 11/12/2017
-					</h4>
-					<p class="small-text">
+					<h4 class="courses-start-title">Submissions starts on 10/12/2017 and end on 11/12/2017</h4>
+					<p class="courses-start-descr small-text">
 						Nulla quis lorem ut libero malesuada feugiat eget ticidunt nibh pulvinar.
 					</p>
-					<button>
-						Download our case study
-					</button>
+					<button class="btn btn-course">Download our case study</button>
 
 				</div>
 			</div>
@@ -87,69 +98,60 @@
 			<div class="section-they-already-said-battles">
 				<div class="container">
 					<h2>They already said Battles</h2>
-					<p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Estibulum ante ipsum primis in faucibus orci luctus et ultrices.</p>
-					
+					<p>
+						Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada. Estibulum ante ipsum primis in faucibus orci luctus et ultrices.
+					</p>
+
 					<div class="container-profile">
-						<ul>
+						<ul class="users-list">
 							<li>
-								<a href="#" class="border-none"><img src="image/teddy-petrosky-430688-unsplash.jpg" alt="Tedy Petrosky"> 
-								</a>
-								<span class="name">
-									John Stone
-								</span>
+								<a href="#" class="border-none">
+									<img src="image/teddy-petrosky-430688-unsplash.jpg" alt="Tedy Petrosky"></a>
+								<span class="name">John Stone</span>
 								<Span class="profession">Creative Director at Amazing Game</Span>
 							</li>
-							
+
 							<li>
-								<a href="#" class="border-none"><img src="image/alex-perez-578974-unsplash.jpg" alt="Alex Perez"> 
-								</a>
-								<span class="name">
-									John Stone
-								</span>
+								<a href="#" class="border-none">
+									<img src="image/alex-perez-578974-unsplash.jpg" alt="Alex Perez"></a>
+								<span class="name">John Stone</span>
 								<Span class="profession">Creative Director at Amazing Game</Span>
 							</li>
 						</ul>
 
 						<ul>
 							<li>
-								<a href="#" class="border-none"><img src="image/ayo-ogunseinde-93181-unsplash.jpg" alt="Ayo Ogunseinde"> 
-								</a>
-								<span class="name">
-									John Stone
-								</span>
+								<a href="#" class="border-none">
+									<img src="image/ayo-ogunseinde-93181-unsplash.jpg" alt="Ayo Ogunseinde"></a>
+								<span class="name">John Stone</span>
 								<Span class="profession">Creative Director at Amazing Game</Span>
 							</li>
 							<li>
-								<a href="#" class="border-none"><img src="image/tanja-heffner-196114-unsplash.jpg" alt="Tanja Heffner"> 
-								</a>
-								<span class="name">
-									John Stone
-								</span>
+								<a href="#" class="border-none">
+									<img src="image/tanja-heffner-196114-unsplash.jpg" alt="Tanja Heffner"></a>
+								<span class="name">John Stone</span>
 								<Span class="profession">Creative Director at Amazing Game</Span>
 							</li>
 						</ul>
 
 						<ul>
 							<li>
-								<a href="#" class="border-none"><img src="image/sawyer-bengtson-326312-unsplash.jpg" alt="Sawyer Bengtson">
-								</a> 
-								<span class="name">
-									John Stone
-								</span>
+								<a href="#" class="border-none">
+									<img src="image/sawyer-bengtson-326312-unsplash.jpg" alt="Sawyer Bengtson"></a>
+								<span class="name">John Stone</span>
 								<Span class="profession">Creative Director at Amazing Game</Span>
 							</li>
 							<li>
-								<a href="#" class="border-none"><img src="image/matheus-ferrero-216385-unsplash.jpg" alt="Matheus Ferrero">
-								</a> 
-								<span class="name">
-									John Stone
-								</span>
+								<a href="#" class="border-none">
+									<img src="image/matheus-ferrero-216385-unsplash.jpg" alt="Matheus Ferrero"></a>
+								<span class="name">John Stone</span>
 								<Span class="profession">Creative Director at Amazing Game</Span>
 							</li>
 						</ul>
 					</div>
 
 					<h3>Countdown</h3>
+
 					<ul class="countdown">
 						<li>
 							<p class="number">37</p>
@@ -162,7 +164,7 @@
 						<li>
 							<p class="number">45</p>
 							<span class="date">MINUTES</span>
-						</li>						
+						</li>
 						<li>
 							<p class="number">26</p>
 							<span class="date">SECONDS</span>
@@ -178,19 +180,23 @@
 					<h2>Sponsorship</h2>
 					<ul>
 						<li>
-							<a href=""><img src="image/clients-01.jpg" class="speckyboy"></a>
+							<a href="">
+								<img src="image/clients-01.jpg" class="speckyboy"></a>
 						</li>
 						<li>
-							<a href=""><img src="image/clients-02.jpg" class="dwb"></a>
+							<a href="">
+								<img src="image/clients-02.jpg" class="dwb"></a>
 						</li>
 						<li>
-							<a href=""><img src="image/clients-03.jpg" class="webdesignledger"></a>
+							<a href="">
+								<img src="image/clients-03.jpg" class="webdesignledger"></a>
 						</li>
 						<li>
-							<a href=""><img src="image/clients-04.jpg" class="instantshift"></a>
+							<a href="">
+								<img src="image/clients-04.jpg" class="instantshift"></a>
 						</li>
 					</ul>
-					
+
 				</div>
 			</div>
 		</section>
@@ -201,29 +207,23 @@
 					<h2>Jury 2017</h2>
 					<ul>
 						<li>
-							<a href="#" class="border-none"><img src="image/kyle-loftus-589739-unsplash.jpg" alt="Kyle loftus"> 
-							</a>
-							<span class="name">
-								John Stone
-							</span>
+							<a href="#" class="border-none">
+								<img src="image/kyle-loftus-589739-unsplash.jpg" alt="Kyle loftus"></a>
+							<span class="name">John Stone</span>
 							<Span class="profession">Creative Director at Amazing Game</Span>
 						</li>
 
 						<li>
-							<a href="#" class="border-none"><img src="image/pete-bellis-435777-unsplash.jpg" alt="Pete Bellis"> 
-							</a>
-							<span class="name">
-								John Stone
-							</span>
+							<a href="#" class="border-none">
+								<img src="image/pete-bellis-435777-unsplash.jpg" alt="Pete Bellis"></a>
+							<span class="name">John Stone</span>
 							<Span class="profession">Creative Director at Amazing Game</Span>
 						</li>
 
 						<li>
-							<a href="#" class="border-none"><img src="image/joe-gardner-149699-unsplash.jpg" alt="Joe Gardner"> 
-							</a>
-							<span class="name">
-								John Stone
-							</span>
+							<a href="#" class="border-none">
+								<img src="image/joe-gardner-149699-unsplash.jpg" alt="Joe Gardner"></a>
+							<span class="name">John Stone</span>
 							<Span class="profession">Creative Director at Amazing Game</Span>
 						</li>
 					</ul>
@@ -235,17 +235,23 @@
 			<div class="contakt-us">
 				<div class="container">
 					<h2>Contact Us</h2>
-					<p>Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada.</p>
+					<p>
+						Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Donec sollicitudin molestie malesuada.
+					</p>
 					<form action="#" name="contact" method="post">
-						
+
 						<ul class="send-contakt">
 							<li>
 								<input placeholder="Fist name" type="text"></li>
-							<li><input placeholder="Last name" type="text"></li>
-							<li><input placeholder="Email" type="email"></li>
-							<li><input placeholder="Websait" type="text"></li>
+							<li>
+								<input placeholder="Last name" type="text"></li>
+							<li>
+								<input placeholder="Email" type="email"></li>
+							<li>
+								<input placeholder="Websait" type="text"></li>
 						</ul>
-						<p><input id="send" placeholder="Message" type="text"></p>
+						<p>
+							<input id="send" placeholder="Message" type="text"></p>
 						<button type="submit">SEND MESSAGE</button>
 					</form>
 				</div>
@@ -258,23 +264,29 @@
 			<div class="container">
 				<h3>Newsletter</h3>
 				<form action="#" method="post">
-					<label for="email">If you would like to hear first and to receive updates please subscribe to our newsletter</label>
+					<label for="email">
+						If you would like to hear first and to receive updates please subscribe to our newsletter
+					</label>
 					<input type="email" id="email" name="email" placeholder="email address">
 					<button type="submit">Subscribe</button>
 				</form>
 				<div class="messengers">
 					<ul>
 						<li>
-							<a href="https://twitter.com"><img src="image/Twitter.png" alt="twitter"></a>
+							<a href="https://twitter.com">
+								<img src="image/Twitter.png" alt="twitter"></a>
 						</li>
 						<li>
-							<a href="https://dribbble.com"><img src="image/Dribbble.png" alt="dribbble"></a>
+							<a href="https://dribbble.com">
+								<img src="image/Dribbble.png" alt="dribbble"></a>
 						</li>
 						<li>
-							<a href="https://instagram.com"><img src="image/Instagram.png" alt="instagram"></a>
+							<a href="https://instagram.com">
+								<img src="image/Instagram.png" alt="instagram"></a>
 						</li>
 						<li>
-							<a href="https://pinterest.com"><img src="image/Pinterest.png" alt="pinterest"></a>
+							<a href="https://pinterest.com">
+								<img src="image/Pinterest.png" alt="pinterest"></a>
 						</li>
 					</ul>
 				</div>
@@ -283,4 +295,4 @@
 	</footer>
 
 </body>
-</html>
+</html></p>
