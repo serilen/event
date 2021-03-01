@@ -278,118 +278,96 @@ ul,ol {
 	background-image: url(..//image/Bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 1620px;
 	color: #ffffff;
 }
 
-.section-they-already-said-battles h2{
+.said-battles-tittle {
 	padding-top: 130px;
-	padding-bottom: 35px;
+	margin-bottom: 35px;
 	font-size: 62px;
 	text-align: center;
 }
 
-.container-profile {
-	height: 735px;
+.said-battles-lead {
+	padding: 0 50px 50px 50px;
+	font-size: 22px;
+	text-align: center;
+	line-height: 44px;
 }
 
-.container-profile ul {
+.users-list {
+	font-size: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.user-list-item {
 	display: inline-block;
-	padding-right: 16px;
-	width: 30%;
+	vertical-align: middle;
+	width: calc((100% - 210px) / 3);
+	margin-right: 35px;
+	margin-left: 35px;
 }
 
-.section-they-already-said-battles h3 {
+
+.said-battles-profile-img {
+	width: 100%;
+}
+
+.name {
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	color: #444444;
+}
+
+.profession {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 400;
+	color: #444444;
+}
+
+.color-item-white {
+	color: #ffffff;
+}
+
+.countdown-tittle {
 	padding-bottom: 50px;
 	padding-top: 90px;
 	font-size: 62px;
 	text-align: center;
 }
 
-.section-they-already-said-battles p {
-	padding: 0 50px 50px 50px;
-	font-size: 22px;
-	text-align: center;
-	line-height: 44px;
-
+.countdown-list {
+	font-size: 0;
+	width: calc(100% - 200px);
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 100px;
 }
 
-.section-they-already-said-battles li img {
+.countdown-item {
 	display: inline-block;
-	vertical-align: middle;
-	width: 265px;
-	height: 265px;
-	margin-left: 60px;
-	margin-right: 120px;
-	border-radius: 10px;
-}
-
-.john-stoun {
-	max-width: 1920px;
-	padding-top: 0;
-	margin-bottom: 100px;
-	padding-left: 50px;
-}
-
-
-.name {
-	display: inline-block;
-	text-align: center;
-	vertical-align: middle;
-	font-size: 24px;
-	font-weight: 700;
-	width: 265px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	margin-left: 40px;
-	color: #444444;
-}
-
-.profession {
-	display: inline-block;
-	text-align: center;
-	vertical-align: middle;
-	font-size: 14px;
-	font-weight: 400;
-	width: 265px;
-	padding-bottom: 20px;
-	margin-left: 40px;
-	color: #444444;
-}
-
-
-.countdown {
-	margin-right: 155px;
-	margin-left: 155px;
-	padding: 0;	
-}
-
-.countdown li {
-	display: inline-block;
-	width: 159px;
-	height: 159px;
-	color: #ffffff;
+	width: calc((100% - 280px) / 4);
 	background-color: #470340;
-	vertical-align: middle;
 	text-align: center;
-	margin-right: 71px;
+	margin-right: 35px;
+	margin-left: 35px;
 	font-size: 48px;
-
 }
 
-.countdown li:last-child {
+.countdown-item:last-child {
 	margin-right: 0;
 }
 
-p.number {
+.countdown-number {
 	font-size: 70px;
 	font-weight: 700;
 	padding: 40px 0 15px 0;
 }
 
-
-
-.date {
+.countdown-date {
 	font-size: 20px;
 	width: 100%;
 	font-weight: 400;
