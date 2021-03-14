@@ -23,6 +23,7 @@ html, body{
 	background-position: center center;
 	background-size: cover;
 	text-align: center;
+	padding-top: 28px;
 	padding-bottom: 260px;
 }
 
@@ -37,9 +38,7 @@ html, body{
 .main-nav {
 	font-size: 0;
 	text-align: justify;
-	padding-top: 28px;
 	margin-bottom: 223px;
-
 }
 
 .main-nav:after {
@@ -63,6 +62,10 @@ html, body{
 	display: inline-block;
 }
 
+.main-nav-link:focus {
+	box-shadow: 0 0 0 5px #0f0f;
+}
+
 .main-nav-link:hover {
 	opacity: 0.5;
 }
@@ -71,16 +74,11 @@ html, body{
 	opacity: 0.1;
 }
 
-.main-nav-link:focus {
-	outline: 2px solid #ff0000
-}
-
 .main-menu-item {
 	display: inline-block;
 	font-size: 16px;
 	outline: 2px solid;
 	outline-color: transparent;
-	
 }
 
 .main-menu-item:last-child {
@@ -88,11 +86,15 @@ html, body{
 }
 
 .main-menu-item-link {
-	color: #ffffff;
+	color: inherit;
 	text-decoration: none;
 	padding: 15px 18px;
 	border-bottom: 2px solid;
 	border-bottom-color: transparent;
+}
+
+.main-menu-item-link:focus {
+	box-shadow: 0 0 0 5px #0f0f;
 }
 
 .main-menu-item-link:hover {
@@ -103,10 +105,6 @@ html, body{
 .main-menu-item-link:active {
 	color: #000;
 	border-bottom-color: #000;
-}
-
-.main-menu-item-link:focus {
-	outline: 2px solid #ff0000;
 }
 
 .header-title  {
@@ -125,16 +123,16 @@ html, body{
 	color: #ffffff;
 }
 
+.btn:focus {
+	box-shadow: 0 0 0 5px #0f0f;
+}
+
 .btn:hover {
 	opacity: 0.5;
 }
 
 .btn:active {
 	opacity: 0.1;
-}
-
-.btn:focus {
-	outline-color: #2f2f;
 }
 
 .btn-header {
@@ -146,13 +144,13 @@ html, body{
 }
 
 .section-design-battles {
-	margin-bottom: 155px;
+	padding-top: 140px;
+	padding-bottom: 155px;
 }
 
 .design-battles-title {
 	font-size: 62px;
 	color: #e71cb4;
-	margin-top: 140px;
 	margin-bottom: 90px;
 	
 }
@@ -214,7 +212,6 @@ html, body{
 	font-size: 44px;
 	content: ">";
 	margin-left: -180px;
-
 }
 
 .questions-item-yellow {
@@ -225,11 +222,9 @@ html, body{
 	color: #ffbd9e;
 }
 
-
 .questions-item-blue {
 	color: #20c9e0;
 }
-
 
 .questions-item-green {
 	color: #2eac66;
@@ -260,7 +255,7 @@ html, body{
 .btn-course {
 	min-width: 460px;
 	background-color: #c60ebe;
-	padding: 24px 82px 24px 82px;
+	padding: 24px 36px 24px 36px;
 	font-size: 22px;
 	font-weight: 700;
 	border: none;
@@ -274,11 +269,10 @@ html, body{
 	background-size: cover;
 	color: #ffffff;
 	padding-bottom: 116px;
-	margin-bottom: 60px;
+	padding-top: 155px;
 }
 
 .said-battles-tittle {
-	padding-top: 155px;
 	font-size: 62px;
 	text-align: center;
 	margin-bottom: 70px;
@@ -317,6 +311,10 @@ html, body{
 	text-decoration: none;
 } 
 
+.profile-link:focus {
+	box-shadow: 0 0 0 5px #0f0f;
+}
+
 .profile-link:hover {
 	opacity: 0.7;
 }
@@ -325,13 +323,10 @@ html, body{
 	opacity: 0.2;
 }
 
-.profile-link:focus {
-	outline: 2px solid #ff0000;
-}
-
 .said-battles-profile-img {
 	width: 100%;
 	margin-bottom: 20px;
+	border-radius: 10px;
 }
 
 .name {
@@ -410,33 +405,28 @@ html, body{
 
 .sponsorship-list {
 	font-size: 0;
-	padding-right: -15px;
-	padding-left: -15px;
 }
 
 .sponsorship-item {
 	display: inline-block;
 }
 
-.sponsorship-img {
-	opacity: 0.3;
-}
-
 .sponsorship-link {
 	padding: 0 15px;
 	display: block;
-}
-
-.sponsorship-link:hover {
-	opacity: 0.7;
-}
-
-.sponsorship-link:active {
-	opacity: 0.2;
+	opacity: 0.3;
 }
 
 .sponsorship-link:focus {
-	outline: 2px solid #ff0000;
+	box-shadow: 0 0 0 5px #0f0f;
+}
+
+.sponsorship-link:hover {
+	opacity: 1;
+}
+
+.sponsorship-link:active {
+	opacity: 0.5;
 }
 
 .jury {
@@ -464,10 +454,9 @@ html, body{
 	margin-right: 0;
 }
 
-
 .jury-img {
 	border-radius: 50%;
-	padding-bottom: 20px;
+	margin-bottom: 20px;
 	width: 358px;
 	height: 358px;
 }
@@ -477,16 +466,16 @@ html, body{
 	text-decoration: none;
 } 
 
+.jury-list-link:focus {
+	box-shadow: 0 0 0 5px #0f0f;
+}
+
 .jury-list-link:hover {
 	opacity: 0.7;
 }
 
 .jury-list-link:active {
 	opacity: 0.2;
-}
-
-.jury-list-link:focus {
-	outline: 2px solid #ff0000;
 }
 
 .contact-us {
@@ -517,16 +506,19 @@ html, body{
 	font-size: 13px;
 	display: inline-block;
 	margin: 0 30px 30px 0;
-	min-width: 300px;
+	width: calc((100% - 30px) / 2);
 	border: none;
 	border-bottom: 5px solid #555555;
 	outline: none;
 	line-height: 3em;
 }
 
+.form-contact-item:nth-child(even) {
+	margin-right: 0;
+} 
+
 .form-contact-long-size {
-	min-width: 635px;
-	padding: 0 15px;
+	min-width: 100%;
 }
 
 .form-contact-item:focus {
@@ -580,6 +572,9 @@ html, body{
 	margin-bottom: 50px;
 }
 
+.form-footer {
+	margin-bottom: 84px;
+}
 
 .newsletter-description {
 	margin-bottom: 26px;
@@ -593,7 +588,6 @@ html, body{
 	border-radius: 10px;
 	margin-left: 298px;
 	margin-right: 8px;
-	margin-bottom: 84px;
 	padding-left: 20px;
 	font-size: 18px;
 }
@@ -629,14 +623,14 @@ html, body{
 	padding: 23px;
 }
 
+.messengers-link:focus {
+	box-shadow: 0 0 0 5px #0f0f;
+}
+
 .messengers-link:hover {
 	opacity: 0.5;
 }
 
 .messengers-link:active {
 	opacity: 0.1;
-}
-
-.messengers-link:focus {
-	outline: 2px solid #ff0000;
 }
